@@ -6,6 +6,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/">
+            
             <Route path="about" element={"About"} />
             <Route path="form" element={"Form Page"} />
             <Route path="login" element={"Login Page"} />
