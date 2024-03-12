@@ -1,0 +1,52 @@
+{
+    "SBs_Applicability": {
+        "name": "189-336 | Part 1",
+        "id": "6133467000001329018"
+    },
+    "Owner": {
+        "name": "Abdel-fattah Dabo",
+        "id": "6133467000000449001",
+        "email": "info@easetasks.com"
+    },
+    "Email": null,
+    "$currency_symbol": "$",
+    "$field_states": null,
+    "$review_process": null,
+    "Name": "10622",
+    "Last_Activity_Time": null,
+    "Modified_By": {
+        "name": "Abdel-fattah Dabo",
+        "id": "6133467000000449001",
+        "email": "info@easetasks.com"
+    },
+    "$review": null,
+    "$state": "save",
+    "Unsubscribed_Mode": null,
+    "$process_flow": false,
+    "id": "6133467000001329046",
+    "Email_Opt_Out": false,
+    "$approved": true,
+    "$approval": {
+        "delegate": false,
+        "approve": false,
+        "reject": false,
+        "resubmit": false
+    },
+    "Modified_Time": "2024-02-13T20:13:34+02:00",
+    "Created_Time": "2024-02-13T20:13:34+02:00",
+    "Unsubscribed_Time": null,
+    "$editable": true,
+    "$orchestration": false,
+    "$in_merge": false,
+    "Applicability": {
+        "name": "49086",
+        "id": "6133467000000714059"
+    },
+    "Created_By": {
+        "name": "Abdel-fattah Dabo",
+        "id": "6133467000000449001",
+        "email": "info@easetasks.com"
+    },
+    "Secondary_Email": null,
+    "$approval_state": "approved"
+}
