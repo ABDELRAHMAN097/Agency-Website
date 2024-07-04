@@ -1,43 +1,23 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap";
-import "animate.css";
-import "./index.scss";
+// import ReactDOM from "react-dom";
+
 import App from "./App";
-import { RecoilRoot } from "recoil";
+//import reportWebVitals from "./reportWebVitals";''
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <RecoilRoot>
-    <App />
-  </RecoilRoot>
-);
+import { createRoot } from 'react-dom/client';
 
-// #Essentials
-// npm i -D react-router-dom@latest
-// npm i sass
-// npm i bootstrap@latest
-// npm i axios
-// npm i recoil
+const domNode = document.getElementById('root');
+const root = createRoot(domNode);
+root.render(<App />);
 
-// #Fontawesome
-// npm i --save @fortawesome/fontawesome-svg-core
-// npm i --save @fortawesome/free-solid-svg-icons
-// npm i --save @fortawesome/free-regular-svg-icons
-// npm i --save @fortawesome/free-brands-svg-icons
-// npm i --save @fortawesome/react-fontawesome@latest
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
 
-// #Optional
-// npm i sweetalert2
-// npm i swiper
-// npm i wowjs
-// npm i animate.css --save
-
-// #How to use
-// # wow js
-// import { WOW } from "wowjs";
-// useEffect(() => {
-//   const wow = new WOW({ live: false });
-//   wow.init();
-// });
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// reportWebVitals();
